@@ -3,7 +3,7 @@ import { useSelector } from "react-redux"
 import CartProducts from "../components/CartProducts"
 import { selectItems } from "../redux/basketSlice"
 
-function checkout() {
+function Checkout() {
     const items = useSelector(selectItems)
     const getTotal = ()=>{
         let totalPrice = 0;
@@ -59,4 +59,4 @@ function checkout() {
   )
 }
 
-export default checkout
+export default Checkout

@@ -48,9 +48,9 @@ function Filter({categories,products:{products}}) {
         <div className="flex items-center  space-x-2">
             <p>Category:</p>
         <select className="w-[70px] h-[30px] sm:w-[130px]"onChange={(e)=>setCategoryValue(e.target.value)}>
-        {categories.map((category)=>(
+        {categories.map((category,i)=>(
             
-                <option>{category}</option>
+                <option key={i}>{category}</option>
             
         ))}
         </select>

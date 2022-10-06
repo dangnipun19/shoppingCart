@@ -9,7 +9,7 @@ import { useState } from "react"
 import { useEffect } from "react"
 
 
-function thankYou() {
+function Success() {
 
   const [searchResults,setSearchResults] = useState([])
   const items = useSelector(selectItems)
@@ -41,4 +41,4 @@ function thankYou() {
   )
 }
 
-export default thankYou
+export default Success

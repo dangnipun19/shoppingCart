@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { decrementQuantity, incrementQuantity, removeFromBasket, selectItems } from '../redux/basketSlice';
 
-export default function ({item}) {
+function CartProducts ({item}) {
   // const items = useSelector(selectItems)
   // const items = useSelector((state) => state.item)
   //  console.log(item)
@@ -49,3 +49,5 @@ export default function ({item}) {
     </div>
   )
 }
+
+export default CartProducts

@@ -10,7 +10,7 @@ function OrderPlaced() {
                     <h1 className="text-3xl">Thank you, your order has been confirmed!</h1>
                 </div>
                 <p>
-                    Thank you for shopping with us. We'll send a confirmation once your item has shipped, if you would like to check the status of your order(s) please press the link below.
+                    Thank you for shopping with us. We&#39;ll send a confirmation once your item has shipped, if you would like to check the status of your order(s) please press the link below.
                 </p>
                 <button className="bg-blue-600 rounded-3xl p-3 text-lg text-white mt-8 hover:bg-blue-700">Go to my orders</button>
             </div>
